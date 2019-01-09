@@ -1,0 +1,28 @@
+{
+  "abi":[{
+    "constant": false,
+    "inputs": [],
+    "name": "getAccountId",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "sourceCode":"pragma solidity ^0.4.16;contract EtherTwitter {uint256 accountId;function EtherTwitter(){accountId = 0;}function getAccountId() public returns(uint256){accountId++;return accountId;}}",
+  "CompilerVersion":"v0.4.18+commit.9cf6e910",
+  "OptimizationEnabled":true,
+  "Runs(Optimiser)":true,
+  "ContractName":"DPN"
+}
